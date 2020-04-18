@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #00FFFF;
+  color: rgb(7, 7, 7);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>aid</h1>
+  <p>A <b>care</b> that never quits.Just for the<b> health </b>of it.</p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="diseases.html">Medical Library</a>
+  <a href="#" class="right">Contact Us</a>
+  <a href="#" class="right">My Wallet</a>
+ 
+  <a href="#" class="right">Shop</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+
+    <img src="Image 1.jpg" >
+    <img src="t2.png" >
+    <img src="t3.png" >
+    <p>A <b>care</b> that never quits.Just for the<b> health </b>of it.</p>
+    
+  </div>
+  <div class="main">
+    <h2>HELPING HAND</h2>
+    <h5>Take the FIRST AID as soon as possible with <b>US</b></h5>
+    <div>   <img src="t4.png"  style="height:200px;"></div>
+    <p>1.What is <b>aid?</b></p>
+    <p>'aid' helps you to find the disease at the initial stage with the help of our app , where you have to choose the symptoms and the app will provide you the probable disease and also the contacts details of the experts and doctors for your treatment. 'aid' also help you to shop the prescribed medicines at low cost.'aid' provide pre-tested home remedies according to the problem.It is a 24/7 health assistance in your pocket .You dont have to cover large distances and take the appointments after waiting for such a long time .'aid' is available for you whenever and where ever you need . </p>
+    <p>2.Where to find us?</p>
+    <p>You can download the app or logon to our website. </p>
+    <br>
+    
+  </div>
+</div>
+
+
+
+</body>
+</html>

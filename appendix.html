@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #00FFFF;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Appendix Pain</h1>
+</div>
+
+<div class="navbar">
+  <a href="a.html">Home</a>
+  <a href="diseases.html" class="active">Medical Library</a>
+  <a href="#" class="right">Contact Us</a>
+  <a href="#" class="right">My Wallet</a>
+ 
+  <a href="#" class="right">Shop</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <img src="t1.png" >
+    <img src="t2.png" >
+    <img src="t3.png" >
+  </div>
+  <div class="main">
+    <h2>Appendix Pain</h2>
+    <div> <img src="appen.png"   style="height:200px;"></div>
+    <h3>What is Appendix Pain </h3>
+   <p>The appendix vermiformis (colloquially known as “the appendix”) is a small, narrow tube found at the end of the pouch-like cecum, which is found at the junction between the small and large intestine. In most people, the appendix is located in the lower right-hand side of the abdomen. Although the exact function of the appendix is unknown – and for a time it was widely believed to have no function – some doctors believe that the appendix may serve as a storage unit for good bacteria and play a role in the development of the immune system.</p>
+
+  </p>
+  <p>As pain specific to acute appendicitis and abdominal pain from other causes are easily confused, it’s important to be aware of all of the common conditions that can cause this pain.</p>
+
+    <p> Appendix pain is located in the abdomen. The abdomen can be divided into four quadrants, by imagining a vertical line running through the navel (belly button) and another running line through it horizontally. The human abdomen is a large region of the human body, and it is the location of a number of organs and organ systems.</p>
+    
+      <p>The left upper quadrant contains the stomach, spleen, left kidney, small intestine, descending colon and transverse colon.</p>
+    
+        <p>The left lower quadrant contains the small intestine and the descending colon, sigmoid colon and rectum.</p>
+    
+          <p> The lower right quadrant contains the small intestine, the cecum and the appendix, as well as the ascending colon.</p>
+    
+            <p> The upper right quadrant contains the pancreas, gallbladder, liver, right kidney, small intestine, ascending colon and transverse colon.</p>
+    
+              <p> The bladder lies roughly on the midline of the lower quadrants. The abdominal cavity is lined by the peritoneum, which is made up of connective tissue. The peritoneum can become infected, a condition known as peritonitis (see below). The organs are held in a web of tissue known as the mesentery.</p>
+    
+                <p> In men, the abdomen also contains the prostate, which is situated just below the bladder. In women, the abdomen also contains the uterus, cervix, ovaries and fallopian tubes. These differences between men and women mean that, in some cases, pain may be felt differently. This is partly because different organs and structures are involved. In acute appendicitis, men and women experience pain in the same regions.</p>
+    
+                  <p> Different disorders within the abdominal region may cause pain in different regions. For example, gastritis is usually felt in the left upper abdominal quadrant, while pain from an inflamed gallbladder or gallstones is felt in the right upper region. Pain which is experienced in the region of the appendix may be from acute appendicitis, but it may also result from other disorders and diseases of organs in the abdominal region.</p>
+    
+                    <p>Good to know: Pain from kidney problems is usually described as being in the back or side, rather than as pain in the abdomen.</p>
+   <br>
+    <h3>Symptoms</h3>
+    <p>-Nausea</p>
+      <p>-Vomiting</p>
+        <p>-Fever</p>
+          <p>-Constipation</p>
+            <p>-Frequent urination, because of irritation of and around the ureter, which can imitate the symptoms of a urinary tract infection</p>
+              <p>If the condition is left untreated, the appendix can burst. If this happens, an individual will typically experience severe pain across the entire abdominal region. This can cause peritonitis, a medically significant condition (see below).</p>
+      
+                <p>If any symptoms of the condition occur and acute appendicitis is suspected, immediate medical attention should be sought. A person will be admitted to hospital and usually undergo surgery to remove the appendix. This common procedure is called an appendectomy and is considered routine by doctors. It will usually be carried out using laparoscopic surgery.</p>
+      
+                  <p>Other causes of abdominal pain</p>
+                    <p> Although acute appendicitis is a common cause of severe pain in the region of the appendix, there are a variety of other possible causes. The source of pain in this location is often difficult to pinpoint, meaning that pain, which feels like the result of acute appendicitis, may in fact stem from a different source, such as a problem related to other parts of the intestines or the kidneys.</p>
+      
+                      <p>Other possible causes of abdominal pain include:</p>
+      
+      <p> -Food poisoning</p>
+        <p> -Diarrhea</p>
+          <p> -Constipation</p>
+            <p> -Vomiting</p>
+              <p> -Stomach ulcers</p>
+                <p> -Crohn’s disease</p>
+                  <p> -Irritable bowel syndrome</p>
+                    <p> -Inflammatory bowel disease</p>
+                      <p> -Diverticulitis</p>
+                        <p> -Infectious enterocolitis</p>
+                          <p> -Peritonitis</p>
+                            <p> -Gallstones</p>
+                              <p> -Inflamed gallbladder</p>
+                                <p> -Kidney infections</p>
+                                  <p> -Kidney stones</p>
+                                    <p> -Pancreatitis</p>
+                                      <p> -Hepatitis</p>
+                                        <p> -Urinary tract infections</p><br>
+                                          <p>Women may additionally experience abdominal pain, usually in the lower abdomen, as a result of:</p>
+      
+                                            <p> -Pelvic inflammatory disease</p>
+                                              <p> -Ovarian cysts, ovarian torsion or inflamed ovaries</p>
+                                                <p> -Ectopic pregnancy</p>
+                                                  <p> -Endometriosis</p>
+                                                    <p> -Dysmenorrhea</p>
+                                                      <p> -Miscarriage</p>
+                                                        <p>In rare cases, pain in the appendix area/abdomen can also be a symptom of a tumorous condition (benign or malignant). Nevertheless if a tumorous condition is suspected, urgent medical attention may be required. Treatment options include surgery, chemotherapy and radiation therapy.
+      
+      Appendix pain location</p>
+    
+  <br>
+  </div>
+  </div>
+
+
+
+</body>
+</html>

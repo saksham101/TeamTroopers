@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #00FFFf;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Asthma</h1>
+</div>
+
+<div class="navbar">
+  <a href="a.html">Home</a>
+  <a href="diseases.html" class="active">Medical Libray</a>
+  <a href="#" class="right">Contact Us</a>
+  <a href="#" class="right">My Wallet</a>
+ 
+  <a href="#" class="right">Shop</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Us</h2>
+    <img src="t1.png" >
+    <img src="t2.png" >
+    <img src="t3.png" >
+  </div>
+  <div class="main">
+    <h2>Asthma</h2>
+    <div> <img src="asth.png"   style="height:200px;"></div>
+    <h3>What is Asthma</h3>
+    <p>Asthma is an inflammatory condition which affects the airways in the lungs. It is one of the most common non-contagious diseases, affecting around 235 million people globally, according to the World Health Organization. The condition can affect men, women and children of all ages. It usually first develops in childhood, but can also appear for the first time in adults.</p>
+    
+    <p>Asthma primarily affects the bronchial tubes in the lungs, called the airways. During an asthma attack, in which symptoms of asthma flare up, people typically experience breathing difficulties, due to the inflammation of the airways, which results in reduced airflow into the lungs. Asthma can vary in severity; its symptoms may be present every day or only during an asthma attack. The most common symptoms of asthma include wheezing, chest pain and shortness of breath.
+
+    </p>
+    <p>The reasons why some people develop asthma and others do not are not yet fully medically understood, but there is believed to be a strong genetic component. When asthma develops, it is believed to be due to inhaling irritants in the air, causing an allergic reaction in the airways.
+
+    </p>
+    <p>Air pollution, pollen and allergens in the air are some of the most common irritants which cause a person to develop asthma and/or can act as triggers for asthma attacks. A person may find that the triggers of their asthma attacks change over time. Triggers of asthma in childhood may cease to cause symptoms in adulthood, for example</p>
+    <p>With effective treatment, asthma occurring at any age can be managed effectively so as to reduce its impact on a person’s quality of life. Treatment of asthma involves learning about and minimizing contact with one’s triggers and the use of medications as needed to relieve ongoing symptoms and to treat asthma attacks. These medications are often inhaled directly into the lungs in the form of a vapour with the use of nebulizers or inhalers,two devices which are easy to use and designed for this purpose.</p>
+    <br>
+    <h3>Symptoms</h3>
+    <p>Typical symptoms of asthma include:</p>
+    <p>  -Wheezing</p>
+    <p>  -Coughing
+
+    </p>
+    <p>  -Chest tightness
+    </p>
+    <p>  -Shortness of breath </p>
+    <p>Usually, these symptoms will be:</p>
+
+      <p> - Recurrent</p>
+      <p> -At their most severe first thing in the morning and/or at night</p>
+      <p> -Present, or worse, in relation to particular activities, i.e. after contact with a trigger, such as tobacco smoke or exercising</p>
+    <p>Asthma can affect a person to varying degrees of severity, which is medically assessed according to factors such as:</p>
+
+      <p> -The frequency with which symptoms appear</p>
+      <p> -Their impact on a person’s ability to carry out their daily routine and live a good quality of life</p>
+      <p> -The impact of the asthma on their lung function, measured with lung function tests</p>
+      <p> -The speed at which they can exhale air, a measurement called peak flow</p>
+      <p>To keep track of their symptoms, people affected by asthma usually carry out peak flow tests, also called peak expiratory flow or PEF tests, twice daily, using a peak flow meter. This is a portable handheld device which allows a person to notice changes in their respiratory function, anticipate flare ups and thereby preventively use medication if needed.</p>
+    <br>
+  </div>
+  </div>
+
+
+
+</body>
+</html>
